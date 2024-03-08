@@ -26,8 +26,8 @@
 
 ## Feedback and Contributing
 
-If you encounter any issues with the AFL Extension or have suggestions for improvement, please [report them on GitHub](https://github.com/your-github-account/afl-extension/issues). Contributions are also welcome!
+If you encounter any issues with the AFL Extension or have suggestions for improvement, please [report them on GitHub](https://github.com/nudaya/50charts-afl/issues). Contributions are also welcome!
 
 ## License
 
-This extension is licensed under the [MIT License](LICENSE).
+This extension is licensed under the [MIT License](LICENSE.md).

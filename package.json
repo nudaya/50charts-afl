@@ -62,5 +62,10 @@
     "typescript": "^5.3.3",
     "@vscode/test-cli": "^0.0.6",
     "@vscode/test-electron": "^2.3.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nudaya/50charts-afl"
+  },
+  "license": "GPL-3.0-only"
 }

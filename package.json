@@ -2,10 +2,10 @@
   "name": "50charts-afl",
   "displayName": "50Charts AFL",
   "description": "A third-party VSCode extension for Amibroker AFL language",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "50Charts",
   "images": {
-    "icon": "images/icon.png"
+    "icon": "./images/icon.png"
   },
   "pricing": "Free",
   "engines": {

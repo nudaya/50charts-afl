@@ -30,4 +30,4 @@ If you encounter any issues with the AFL Extension or have suggestions for impro
 
 ## License
 
-This extension is licensed under the [MIT License](LICENSE.md).
+This extension is licensed under the [GNU GPL 3.0](LICENSE.md).

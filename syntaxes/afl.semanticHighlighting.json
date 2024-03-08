@@ -1,0 +1,30 @@
+{
+    "variableTypes": {
+        "local": {
+            "decoration": "editor.semanticHighlighting.localVariableForeground",
+            "underline": false
+        },
+        "global": {
+            "decoration": "editor.semanticHighlighting.globalVariableForeground",
+            "underline": true
+        },
+        "parameter": {
+            "decoration": "editor.semanticHighlighting.parameterForeground",
+            "underline": false
+        }
+    },
+    "rules": {
+        "LocalVariable": {
+            "scope": "variable.other.local.afl",
+            "type": "local"
+        },
+        "GlobalVariable": {
+            "scope": "variable.other.global.afl",
+            "type": "global"
+        },
+        "Parameter": {
+            "scope": "variable.parameter.afl",
+            "type": "parameter"
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "name": "AFL",
+    "scopeName": "source.afl",
+    "fileTypes": ["afl"],
+    "patterns": [
+        {
+            "include": "#comments"
+        },
+        {
+            "include": "#strings"
+        },
+        {
+            "include": "#numbers"
+        },
+        {
+            "include": "#keywords"
+        },
+        {
+            "include": "#operators"
+        },
+        {
+            "include": "#variables"
+        },
+        {
+            "include": "#functions"
+        }
+    ],
+    "repository": {
+        "comments": {
+            "patterns": [
+                {
+                    "match": "//.*$",
+                    "name": "comment.line.double-slash.afl"
+                },
+                {
+                    "begin": "/\\*",
+                    "end": "\\*/",
+                    "name": "comment.block.afl"
+                }
+            ]
+        },
+        "strings": {
+            "begin": "\"",
+            "end": "\"",
+            "name": "string.quoted.double.afl"
+        },
+        "numbers": {
+            "match": "\\b\\d+\\b",
+            "name": "constant.numeric.afl"
+        },
+        "keywords": {
+            "match": "\\b(and|AND|or|OR|if|else|for|while|return|function|_SECTION_BEGIN|_SECTION_END|_section_begin|_section_end|Title)\\b",
+            "name": "keyword.control.afl"
+        },
+        "operators": {
+            "match": "\\+|-|\\*|/|%|==|!=|<=|>=|<|>|&&|\\|\\|=|\\^|!|\\?|:|\\+=|-=|\\*=|/=|%=|\\|=|&=|\\^=|<<|>>|<<=|>>=|~|\\|\\||\\|\\|",
+            "name": "keyword.operator.afl"
+        },
+        "functions": {
+            "match": "\\b[A-Za-z_][A-Za-z0-9_]*\\s*(?=\\()",
+            "name": "entity.name.function.afl"
+        },
+        "variables": {
+            "match": "\\b[A-Za-z_][A-Za-z0-9_]*\\b\\s",
+            "name": "variable.other.afl"
+        }
+    }
+}

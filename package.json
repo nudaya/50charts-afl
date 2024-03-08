@@ -3,11 +3,16 @@
   "displayName": "50Charts AFL",
   "description": "A third-party VSCode extension for Amibroker AFL language",
   "version": "0.0.1",
+  "publisher": "50Charts",
+  "images": {
+    "icon": "images/icon.png"
+  },
+  "pricing": "Free",
   "engines": {
     "vscode": "^1.87.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
@@ -17,7 +22,27 @@
         "command": "50charts-afl.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "languages": [
+      {
+          "id": "afl",
+          "aliases": ["AFL", "amibroker"],
+          "extensions": [".afl"],
+          "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+        {
+            "language": "afl",
+            "scopeName": "source.afl",
+            "path": "./syntaxes/afl.tmLanguage.json"
+        }
+    ],
+    "semanticHighlighting": {
+        "scopes": {
+            "source.afl": "./syntaxes/afl.semanticHighlighting.json"
+        }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

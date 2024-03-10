@@ -1,8 +1,8 @@
-# 50Charts AFL extension for Visual Studio Code
+# AFL Syntax Highlight extension for Visual Studio Code
 
 ## Overview
 
-50Charts AFL extension is a third party extension for Visual Studio Code. This enhances your coding experience with AFL (AmiBroker Formula Language) by providing syntax highlighting within the Visual Studio Code editor.
+AFL Syntax Highlight extension is a third party extension for Visual Studio Code. This enhances your coding experience with AFL (AmiBroker Formula Language) by providing syntax highlighting within the Visual Studio Code editor.
 
 ## Features
 
@@ -12,8 +12,8 @@
 
 1. Open Visual Studio Code.
 2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
-3. Search for "50Charts AFL" in the Extensions view search box.
-4. Click Install to install the 50Charts-AFL Extension.
+3. Search for "AFL Syntax Highlight" in the Extensions view search box.
+4. Click Install to install the AFL Syntax Highlight Extension.
 
 ## Usage
 

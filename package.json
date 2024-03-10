@@ -1,8 +1,8 @@
 {
   "name": "50charts-afl",
-  "displayName": "50Charts AFL",
-  "description": "A third-party VSCode extension for Amibroker AFL language",
-  "version": "0.0.2",
+  "displayName": "AFL Syntax Highlight",
+  "description": "A third-party extension for Amibroker AFL language (AFL), to highlight syntax",
+  "version": "0.0.3",
   "publisher": "50Charts",
   "images": {
     "icon": "./images/icon.png"
